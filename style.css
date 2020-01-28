@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway+One&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("assets/computer.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav-links{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+.nav-links ul li{
+    display: inline-block;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+.nav-links ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.849);
+    color: black;
+    border-radius: 3px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    color: white;
+}
+.title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+}
+p{
+    color: rgba(189, 189, 189, 0.712);
+    text-align: center;
+}
+a.btn{
+    background-color: white;
+    border-radius: 0.6em;
+    text-align: center;
+    color: #000;
+    line-height: 1;
+    padding: 0.8em 1.2em;
+    text-decoration: none;
+    size: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+a.btn:hover{
+    color: #000;
+    background-color: hsla(0, 0%, 100%, 0.671);
+    outline: 0;
+}
